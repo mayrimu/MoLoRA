@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@region-42.seetacloud.com:16523 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="MLoRA (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/MLoRA-0E45" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-42.seetacloud.com:16523 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/MLoRA-0E45" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
