@@ -129,7 +129,7 @@ def main(config):
                     if layer_matching(pre_layer.name, layer.name):
                         if pre_layer.name in ['m_lo_rafcn', 'm_lo_rafcn_1', 'm_lo_rafcn_2']:
                             #仅transformer
-                            weights = pre_layer.get_weights()[6:] + pre_layer.get_weights()[2:6] + pre_layer.get_weights()[:2]
+                            #weights = pre_layer.get_weights()[6:] + pre_layer.get_weights()[2:6] + pre_layer.get_weights()[:2]
                             #+softmax
                             weights = pre_layer.get_weights()[7:10] + pre_layer.get_weights()[2:7] + pre_layer.get_weights()[0:2]
                             model.model.get_layer(layer.name).set_weights(weights)
